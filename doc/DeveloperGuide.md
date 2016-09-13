@@ -75,6 +75,27 @@ Use case ends.
 
 > 3a1. AddressBook shows an error message <br>
   Use case resumes at step 2
+  
+#### Use case: Rename a person's tag
+
+**MSS**
+
+1. User requests to list persons
+2. AddressBook shows a list of persons
+3. User requests to edit a specific person's tag
+4. AddressBooks verifies the validity of the edited tag
+5. AddressBook updates the person's tag
+
+**Extensions**
+
+2a. The list is empty
+
+> Use case ends
+
+4a. The given index is invalid
+
+> 4a1. AddressBook shows an error message that edited tag is invalid <br>
+ Use case resumes at step 2
 
 ## Appendix C : Non Functional Requirements
 
